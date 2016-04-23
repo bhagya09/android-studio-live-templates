@@ -8,12 +8,15 @@ live templates for android studio
 ```source install-mac.sh```
 ### In Other Cases
 ```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```
+
 you can check path to your Android Studio live template folder from [here](https://www.jetbrains.com/help/idea/2016.1/live-templates.html?origin=old_help).
+
 Remember to restart your Android Studio.
 
 ## Live Templates List
 
 - ifemr
+
 ```if (TextUtils.isEmpty($VAR$)) { return; }```
 
 ## Inspiration
