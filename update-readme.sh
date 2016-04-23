@@ -33,6 +33,10 @@ for ((i=1; i<=count; i++)); do
   append_README
 done
 
+# write inspiration
+append_README '## Inspiration'
+append_README 'This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).'
+
 # write license
 append_README '## License'
 cat LICENSE >> README.md

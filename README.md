@@ -4,9 +4,9 @@ android-studio-live-templates
 live templates for android studio
 
 ## Install
-### for AndroidStudio2.0 on Mac OSX
+### For AndroidStudio2.0 on Mac OSX
 ```source install-mac.sh```
-### in other case
+### In Other Cases
 ```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```
 you can check path to your Android Studio live template folder from [here](https://www.jetbrains.com/help/idea/2016.1/live-templates.html?origin=old_help).
 Remember to restart your Android Studio.
@@ -16,6 +16,8 @@ Remember to restart your Android Studio.
 - ifemr
 ```if (TextUtils.isEmpty($VAR$)) { return; }```
 
+## Inspiration
+This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).
 ## License
 The MIT License (MIT)
 
