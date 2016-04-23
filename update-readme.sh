@@ -12,12 +12,17 @@ append_README 'live templates for android studio'
 append_README
 
 # write install info
-append_README '## installa on MAC OSX'
+append_README '## Install'
+append_README '### For AndroidStudio2.0 on Mac OSX'
 append_README '```source install-mac.sh```'
+append_README '### In Other Cases'
+append_README '```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```'
+append_README 'you can check path to your Android Studio live template folder from [here](https://www.jetbrains.com/help/idea/2016.1/live-templates.html?origin=old_help).'
+append_README 'Remember to restart your Android Studio.'
 append_README 
 
 # write templates
-append_README '## live templates list '
+append_README '## Live Templates List'
 append_README
 count=$(xmlstarlet sel -T -t -v 'count(//template)' -n ./gooooloo.xml)
 for ((i=1; i<=count; i++)); do
@@ -29,5 +34,5 @@ for ((i=1; i<=count; i++)); do
 done
 
 # write license
-append_README '## license'
+append_README '## License'
 cat LICENSE >> README.md
