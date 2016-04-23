@@ -27,3 +27,7 @@ for ((i=1; i<=count; i++)); do
   append_README '```'$value'```'
   append_README
 done
+
+# write license
+append_README '## license'
+cat LICENSE >> README.md
