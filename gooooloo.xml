@@ -1,0 +1,8 @@
+<templateSet group="gooooloo">
+  <template name="ifemr" value="if (TextUtils.isEmpty($VAR$)) { return; }" description="if TextUtils.isEmpty(**) return;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
