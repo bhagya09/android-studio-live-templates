@@ -13,8 +13,13 @@ append_README
 
 # write install info
 append_README '## Install'
+append_README
 append_README '### For AndroidStudio2.0 on Mac OSX'
 append_README '```source install-mac.sh```'
+append_README
+append_README '### For AndroidStudio2.0 on Linux'
+append_README '```source install-linux.sh```'
+append_README
 append_README '### In Other Cases'
 append_README '```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```'
 append_README 
