@@ -4,8 +4,13 @@ android-studio-live-templates
 live templates for android studio
 
 ## Install
+
 ### For AndroidStudio2.0 on Mac OSX
 ```source install-mac.sh```
+
+### For AndroidStudio2.0 on Linux
+```source install-linux.sh```
+
 ### In Other Cases
 ```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```
 
