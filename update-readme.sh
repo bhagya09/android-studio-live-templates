@@ -35,7 +35,8 @@ count=$(xmlstarlet sel -T -t -v 'count(//template)' -n ./gooooloo.xml)
 for ((i=1; i<=count; i++)); do
   name=$(xmlstarlet sel -T -t -m '//template['$i']' -v '@name' ./gooooloo.xml)
   value=$(xmlstarlet sel -T -t -m '//template['$i']' -v '@value' ./gooooloo.xml)
-  append_README '- '$name
+  description=$(xmlstarlet sel -T -t -m '//template['$i']' -v '@description' ./gooooloo.xml)
+  append_README '- '$name: $description
   append_README ''
   append_README '```'$value'```'
   append_README

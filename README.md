@@ -20,11 +20,11 @@ Remember to restart your Android Studio.
 
 ## Live Templates List
 
-- ifemr
+- ifemr: if TextUtils.isEmpty(**) return;
 
 ```if (TextUtils.isEmpty($VAR$)) { return; }```
 
-- aromt
+- aromt: add a Runnable in main looper Handler
 
 ```new Handler(Looper.getMainLooper()).post(new Runnable() {
     @Override
