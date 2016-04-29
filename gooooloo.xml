@@ -1,11 +1,11 @@
 <templateSet group="gooooloo">
-  <template name="ifemr" value="if (TextUtils.isEmpty($VAR$)) { return; }" description="if TextUtils.isEmpty(**) return;" toReformat="true" toShortenFQNames="true">
+  <template name="ifemr" value="if (TextUtils.isEmpty($VAR$)) { return $END$; }" description="if TextUtils.isEmpty(**) return;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="aromt" value="new Handler(Looper.getMainLooper()).post(new Runnable() {&#10;    @Override&#10;    public void run() {&#10;        // CODE IT&#10;    }&#10;});" description="add a Runnable in main looper Handler" toReformat="true" toShortenFQNames="true">
+  <template name="rom" value="new android.os.Handler(android.os.Looper.getMainLooper()).post(new Runnable() {&#10;    @Override&#10;    public void run() {&#10;        $END$&#10;    }&#10;});" description="add a Runnable in main looper Handler" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />

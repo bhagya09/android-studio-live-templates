@@ -22,14 +22,14 @@ Remember to restart your Android Studio.
 
 - ifemr: if TextUtils.isEmpty(**) return;
 
-```if (TextUtils.isEmpty($VAR$)) { return; }```
+```if (TextUtils.isEmpty($VAR$)) { return $END$; }```
 
-- aromt: add a Runnable in main looper Handler
+- rom: add a Runnable in main looper Handler
 
-```new Handler(Looper.getMainLooper()).post(new Runnable() {
+```new android.os.Handler(android.os.Looper.getMainLooper()).post(new Runnable() {
     @Override
     public void run() {
-        // CODE IT
+        $END$
     }
 });```
 
