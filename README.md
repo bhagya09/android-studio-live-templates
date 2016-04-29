@@ -33,6 +33,10 @@ Remember to restart your Android Studio.
     }
 });```
 
+- ifnt: if null throw IllegalArgumentException;
+
+```if ($VAR$ == null) { throw new IllegalArgumentException("$VAR$ == null"); }```
+
 ## Inspiration
 This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).
 ## License

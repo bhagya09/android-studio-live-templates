@@ -16,4 +16,10 @@
       <option name="COMPLETION" value="false" />
     </context>
   </template>
+  <template name="ifnt" value="if ($VAR$ == null) { throw new IllegalArgumentException(&quot;$VAR$ == null&quot;); }" description="if null throw IllegalArgumentException;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
