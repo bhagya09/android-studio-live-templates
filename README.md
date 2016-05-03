@@ -22,35 +22,47 @@ Remember to restart your Android Studio.
 
 - ifemr: if TextUtils.isEmpty(**) return;
 
-```if (TextUtils.isEmpty($VAR$)) { return $END$; }```
+```
+if (TextUtils.isEmpty($VAR$)) { return $END$; }
+```
 
 - rom: add a Runnable in main looper Handler
 
-```new android.os.Handler(android.os.Looper.getMainLooper()).post(new Runnable() {
+```
+new android.os.Handler(android.os.Looper.getMainLooper()).post(new Runnable() {
     @Override
     public void run() {
         $END$
     }
-});```
+});
+```
 
 - ifnt: if null throw IllegalArgumentException;
 
-```if ($VAR$ == null) { throw new IllegalArgumentException("$VAR$ == null"); }```
+```
+if ($VAR$ == null) { throw new IllegalArgumentException("$VAR$ == null"); }
+```
 
 - ats: add JUnit4 Test Case with templates
 
-```@org.junit.Test 
+```
+@org.junit.Test 
 public void test$method$_$scenario$_Should$result$() throws Exception {
     $END$
-}```
+}
+```
 
 - orn: or **** == null
 
-``` || $VAR$ == null```
+```
+ || $VAR$ == null
+```
 
 - atc: add test Context for Android
 
-```final android.content.Context context = org.robolectric.RuntimeEnvironment.application;```
+```
+final android.content.Context context = org.robolectric.RuntimeEnvironment.application;
+```
 
 ## Inspiration
 This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).

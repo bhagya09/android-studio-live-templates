@@ -38,7 +38,9 @@ for ((i=1; i<=count; i++)); do
   description=$(xmlstarlet sel -T -t -m '//template['$i']' -v '@description' ./gooooloo.xml)
   append_README '- '$name: $description
   append_README ''
-  append_README '```'$value'```'
+  append_README '```'
+  append_README $value
+  append_README '```'
   append_README
 done
 
