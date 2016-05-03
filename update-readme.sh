@@ -15,13 +15,19 @@ append_README
 append_README '## Install'
 append_README
 append_README '### For AndroidStudio2.0 on Mac OSX'
-append_README '```source install-mac.sh```'
+append_README '```'
+append_README 'source install-mac.sh'
+append_README '```'
 append_README
 append_README '### For AndroidStudio2.0 on Linux'
-append_README '```source install-linux.sh```'
+append_README '```'
+append_README 'source install-linux.sh'
+append_README '```'
 append_README
 append_README '### In Other Cases'
-append_README '```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```'
+append_README '```'
+append_README 'ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml'
+append_README '```'
 append_README 
 append_README 'you can check path to your Android Studio live template folder from [here](https://www.jetbrains.com/help/idea/2016.1/live-templates.html?origin=old_help).'
 append_README 

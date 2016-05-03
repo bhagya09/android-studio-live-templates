@@ -6,13 +6,19 @@ live templates for android studio
 ## Install
 
 ### For AndroidStudio2.0 on Mac OSX
-```source install-mac.sh```
+```
+source install-mac.sh
+```
 
 ### For AndroidStudio2.0 on Linux
-```source install-linux.sh```
+```
+source install-linux.sh
+```
 
 ### In Other Cases
-```ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml```
+```
+ln -s ${PWD}/gooooloo.xml [pathToYourAndroidStudioLiveTemplateFolder]/gooooloo.xml
+```
 
 you can check path to your Android Studio live template folder from [here](https://www.jetbrains.com/help/idea/2016.1/live-templates.html?origin=old_help).
 
