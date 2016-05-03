@@ -44,6 +44,10 @@ public void test$method$_$scenario$_Should$result$() throws Exception {
     $END$
 }```
 
+- orn: or **** == null
+
+``` || $VAR$ == null```
+
 ## Inspiration
 This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).
 ## License
