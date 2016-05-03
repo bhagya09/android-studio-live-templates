@@ -48,4 +48,9 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="atc" value="final android.content.Context context = org.robolectric.RuntimeEnvironment.application;" description="add test Context for Android" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>

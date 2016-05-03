@@ -48,6 +48,10 @@ public void test$method$_$scenario$_Should$result$() throws Exception {
 
 ``` || $VAR$ == null```
 
+- atc: add test Context for Android
+
+```final android.content.Context context = org.robolectric.RuntimeEnvironment.application;```
+
 ## Inspiration
 This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).
 ## License
