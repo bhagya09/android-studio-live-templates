@@ -37,6 +37,13 @@ Remember to restart your Android Studio.
 
 ```if ($VAR$ == null) { throw new IllegalArgumentException("$VAR$ == null"); }```
 
+- ats: add JUnit4 Test Case with templates
+
+```@org.junit.Test 
+public void test$method$_$scenario$_Should$result$() throws Exception {
+    $END$
+}```
+
 ## Inspiration
 This project is inspired by this [post](https://lachdrache.com/2012/11/18/sharing-intellij-idea-live-templates/).
 ## License

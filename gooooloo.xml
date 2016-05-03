@@ -1,5 +1,5 @@
 <templateSet group="gooooloo">
-  <template name="ifemr" value="if (TextUtils.isEmpty($VAR$)) { return $END$; }" description="if TextUtils.isEmpty(**) return;" toReformat="true" toShortenFQNames="true">
+  <template name="ifemr" value="if (TextUtils.isEmpty($VAR$)) { return $END$; }" description="if TextUtils.isEmpty(**) return;" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
@@ -20,6 +20,20 @@
     <variable name="VAR" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ats" value="@org.junit.Test &#10;public void test$method$_$scenario$_Should$result$() throws Exception {&#10;    $END$&#10;}" description="add JUnit4 Test Case with templates" toReformat="true" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="scenario" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>
